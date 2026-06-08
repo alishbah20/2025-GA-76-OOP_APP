@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="application2/application2.csproj" Id="ff91d539-a0d3-43d6-9f0b-73cbf68959cf" />
+  <Project Path="BusBookingGUI/BusBookingGUI.csproj" Id="73d27283-3afc-4e21-856b-12b4e24e58b0" />
+</Solution>
