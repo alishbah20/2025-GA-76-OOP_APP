@@ -42,7 +42,7 @@ namespace UI
             }
         }
 
-        // --- User Sign Up ---
+        //  User Sign Up 
         static void SignUp()
         {
             ConsoleHelper.DrawHeader("USER SIGN UP");
@@ -56,7 +56,7 @@ namespace UI
             ConsoleHelper.Pause();
         }
 
-        // --- User Sign In ---
+        //User Sign In 
         static void SignIn()
         {
             ConsoleHelper.DrawHeader("USER SIGN IN");
@@ -75,7 +75,7 @@ namespace UI
             UserMenu((User)result.person);
         }
 
-        // --- Reset Password ---
+        //  Reset Password
         static void ResetPassword()
         {
             ConsoleHelper.DrawHeader("RESET PASSWORD");
@@ -87,7 +87,7 @@ namespace UI
             ConsoleHelper.Pause();
         }
 
-        // --- Admin Login ---
+        // Admin Login 
         static void AdminLogin()
         {
             ConsoleHelper.DrawHeader("ADMIN LOGIN");
@@ -105,7 +105,7 @@ namespace UI
             }
         }
 
-        // --- Admin Menu ---
+        //  Admin Menu 
         static void AdminMenu(Admin admin)
         {
             bool isActive = true;
@@ -155,7 +155,7 @@ namespace UI
             }
         }
 
-        // --- User Menu ---
+        // User Menu 
         static void UserMenu(User user)
         {
             bool isActive = true;
@@ -213,7 +213,7 @@ namespace UI
         }
 
 
-        // --- Fare List ---
+        // Fare List
         static void ShowFares()
         {
             ConsoleHelper.DrawHeader("FARE LIST");

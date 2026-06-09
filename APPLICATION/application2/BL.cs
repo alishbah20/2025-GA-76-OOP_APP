@@ -5,7 +5,7 @@ namespace BL
 {
     using DL;
 
-    // ✅ Person - Base Class
+    //  Person Base Class
     public abstract class Person
     {
         public string Name;
@@ -20,7 +20,7 @@ namespace BL
         public abstract void ShowDashboard();
     }
 
-    // ✅ BusRoute Class
+    //  BusRoute Class
     public class BusRoute
     {
         public string FromCity;
@@ -37,7 +37,7 @@ namespace BL
         }
     }
 
-    // ✅ RouteManager Class
+    //  RouteManager Class
     public class RouteManager
     {
         private List<BusRoute> routes = new List<BusRoute>();
@@ -94,7 +94,7 @@ namespace BL
         }
     }
 
-    // ✅ User Class
+    // User Class
     public class User : Person
     {
         public string Email;
@@ -147,7 +147,7 @@ namespace BL
         }
     }
 
-    // ✅ Admin Class
+    //  Admin Class
     public class Admin : Person
     {
         private UserDatabaseHandler userDatabase = new UserDatabaseHandler();
@@ -221,7 +221,7 @@ namespace BL
         }
     }
 
-    // ✅ AuthService Class
+    //  AuthService Class
     public class AuthService
     {
         private UserDatabaseHandler userDatabase = new UserDatabaseHandler();
